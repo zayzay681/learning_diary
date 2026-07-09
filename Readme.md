@@ -56,3 +56,9 @@ This is a safety check. It verifies if your shift input is a valid positive digi
             output = caesar_cipher(user_text, user_key, mode='decrypt')
             print(f"\nDecrypted Result:\n{output}")
 Looks at your initial choice. If you picked E, it sends your text and key to the cipher engine with mode='encrypt'. If you picked D, it runs it as mode='decrypt'.Finally, it prints the processed output onto the screen, hits the end of the while loop block, and circles right back to the top to ask for your next command!
+## Technical Details: The math breakdown
+Here is exactly how the script processes characters under the hood:
+- function defination
+-de/en crypt
+-treat lower/upper case letters
+-character skipping
